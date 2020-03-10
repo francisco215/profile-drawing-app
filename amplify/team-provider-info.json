@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "profiledrawer-dev-20190927130205-authRole",
+            "UnauthRoleArn": "arn:aws:iam::915543384014:role/profiledrawer-dev-20190927130205-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::915543384014:role/profiledrawer-dev-20190927130205-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "profiledrawer-dev-20190927130205-deployment",
+            "UnauthRoleName": "profiledrawer-dev-20190927130205-unauthRole",
+            "StackName": "profiledrawer-dev-20190927130205",
+            "StackId": "arn:aws:cloudformation:us-east-1:915543384014:stack/profiledrawer-dev-20190927130205/868fb290-e148-11e9-94e7-12c9c271ca70"
+        },
+        "categories": {
+            "auth": {
+                "profiledrawerc116c4ac": {}
+            }
+        }
+    }
+}

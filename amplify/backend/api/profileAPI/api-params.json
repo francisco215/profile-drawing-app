@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/profiles",
+            "lambdaFunction": "profileLambda",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "profileAPI",
+    "apiName": "profileAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "profileLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "profiledrawer-dev-20190927130205-authRole",
+        "unAuthRoleName": "profiledrawer-dev-20190927130205-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "profileLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
